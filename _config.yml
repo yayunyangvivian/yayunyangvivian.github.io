@@ -24,7 +24,7 @@ repository           : "yayunyangvivian/yayunyangvivian.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile-1.jpg"
   name             : "Yayun Yang"
   pronouns         : "she/her"  
   bio              : "M.S. Student in Statistics"
