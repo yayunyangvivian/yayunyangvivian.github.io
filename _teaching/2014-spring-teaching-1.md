@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Student Mentor"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Mentoring"
+permalink: /teaching/student-mentor-usst/
+venue: "University of Shanghai for Science and Technology"
+date: 2021-2024
+location: "Shanghai, China"
+excerpt: "Mentored over 200 undergraduate students in Advanced Mathematics, Linear Algebra, and Python."
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
