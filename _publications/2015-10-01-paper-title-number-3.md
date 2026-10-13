@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "MASNet: A Novel Deep Learning Approach for Enhanced Detection of Small Targets in Complex Scenarios"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2025-masnet-small-target-detection
+excerpt: 'We propose MASNet, a multi-attention deep learning framework for improving small object detection in complex environments through enhanced spatial feature extraction and multi-scale attention mechanisms.'
+date: 2025-03-13
+venue: 'Measurement Science and Technology'
+paperurl: 'https://doi.org/10.1088/1361-6501/adbccb'
+citation: 'Zhang, Z., <strong>Yang, Y.</strong>, & Jian, X. (2025). MASNet: A novel deep learning approach for enhanced detection of small targets in complex scenarios. <i>Measurement Science and Technology, 36</i>(4), 045402.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
