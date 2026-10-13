@@ -1,4 +1,3 @@
-@use 'sass:math';
 
 //////////////////////////////
 // Converts the input value to Base EMs
@@ -30,17 +29,17 @@
     @return ($value / 16px) * 1em;
   }
   @else if $unit == '%' {
-    @return math.div($value, 100%) * 1em;
+    @return ($value / 100%) * 1em;
   }
   @else if $unit == 'em' {
     @return $value;
   }
   @else if $unit == 'pt' {
-    @return math.div($value, 12pt) * 1em;
+    @return ($value / 12pt) * 1em;
   }
   @else {
     @return $value;
-//    @warn 'Everything is terrible! What have you done?!';
+    // @warn 'Everything is terrible! What have you done?!';
   }
 }
 
@@ -70,13 +69,13 @@ $breakpoint-min-max-features: 'color',
 //////////////////////////////
 // Returns whether the feature can have a string value
 //////////////////////////////
-$breakpoint-string-features:  'orientation',
-                              'scan',
-                              'color',
-                              'aspect-ratio',
-                              'device-aspect-ratio',
-                              'pointer',
-                              'luminosity';
+$breakpoint-string-features: 'orientation',
+                             'scan',
+                             'color',
+                             'aspect-ratio',
+                             'device-aspect-ratio',
+                             'pointer',
+                             'luminosity';
 
 @function breakpoint-string-value($feature) {
   @each $item in $breakpoint-string-features {
@@ -95,16 +94,16 @@ $breakpoint-string-features:  'orientation',
 //////////////////////////////
 // Returns whether the feature is a media type
 //////////////////////////////
-$breakpoint-media-types:  'all',
-                          'braille',
-                          'embossed',
-                          'handheld',
-                          'print',
-                          'projection',
-                          'screen',
-                          'speech',
-                          'tty',
-                          'tv';
+$breakpoint-media-types: 'all',
+                         'braille',
+                         'embossed',
+                         'handheld',
+                         'print',
+                         'projection',
+                         'screen',
+                         'speech',
+                         'tty',
+                         'tv';
 
 @function breakpoint-is-media($feature) {
   @each $media in $breakpoint-media-types {
@@ -112,7 +111,6 @@ $breakpoint-media-types:  'all',
       @return true;
     }
   }
-
   @return false;
 }
 
